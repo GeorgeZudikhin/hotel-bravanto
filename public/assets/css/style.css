@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.ft-title-playfair{
+    
+    font-family: 'Playfair Display', serif;
+    filter: drop-shadow(2px 2px 5px rgb(10, 107, 122));
+    text-shadow: 2px 2px rgba(28, 28, 210, 0.622);
+    color: whitesmoke;
+}
+
+.ft-title-playfairb{
+    font-family: 'Playfair Display', serif;
+    filter: drop-shadow(2px 2px 5px rgb(247, 247, 220));
+    text-shadow: 2px 2px rgba(53, 143, 216, 0.626);
+    color: rgb(250, 255, 255);
+}
+
+.ft-playfair{
+    font-family: 'Playfair Display', serif;
+    color: rgb(130, 160, 186);
+}
+
+.label-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    text-indent: 0.5rem;
+}
+
+.bg-light-orange{
+    background-image: linear-gradient(rgba(255, 244, 204, 0.129), rgba(255, 222, 233, 0.256));
+}
+
+.bg-res-form{
+    background-image: linear-gradient(rgba(145, 176, 193, 0.034),rgba(16, 98, 241, 0.204))
+}
+
+.bg-hotel{
+    /*background-image: url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg");*/ 
+    /*background-image: url('https://cdn.pixabay.com/photo/2017/07/27/22/55/sea-turtle-2547084_960_720.jpg');*/
+    /*background-image: url('https://cdn.pixabay.com/photo/2019/02/14/18/27/seal-3997128_960_720.jpg');*/
+    background-image: linear-gradient(rgba(28, 28, 210, 0.159),rgba(12, 163, 186, 0.405)), url('https://cdn.pixabay.com/photo/2013/02/10/03/43/sea-79950_960_720.jpg');
+    background-blend-mode: rgb(232, 214, 242); 
+    background-size: cover;
+}
